@@ -39,6 +39,17 @@ console.log("A not equal B");
 }
 ```
 
+If , else If ,else
+```
+if(a===b) {
+console.log("A and B equal");
+}else if(a===c) {
+console.log("A and C equal");
+}else{
+console.log("No Equal Match");
+}
+```
+
 Ternary Operator
 ```
 condition ? true_output:false_output;
