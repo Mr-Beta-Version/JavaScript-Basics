@@ -51,3 +51,9 @@ console.log("Output",voter);
 
 ```
 
+Pop-up message and Input
+```
+alert("Hello this is a Message");
+let name = prompt("Hey Enter Your Name");
+console.log("Welcome",name);
+```
