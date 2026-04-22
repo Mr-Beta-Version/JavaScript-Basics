@@ -22,3 +22,32 @@ typeof variablename;
 /* This is
 Multiline Comments */
 ```
+
+# Condition 
+If Only
+```
+if(a===b) {
+console.log("A and B equal");
+}
+```
+If Else
+```
+if(a===b) {
+console.log("A and B equal");
+}else{
+console.log("A not equal B");
+}
+```
+
+Ternary Operator
+```
+condition ? true_output:false_output;
+```
+
+```
+let age=29;
+let voter = age>17 ? "yes voter":"no child";
+console.log("Output",voter);
+
+```
+
