@@ -68,3 +68,22 @@ alert("Hello this is a Message");
 let name = prompt("Hey Enter Your Name");
 console.log("Welcome",name);
 ```
+
+
+
+
+
+# Loop 
+
+for loop
+```
+for(var, condition for execute,changes after execute){
+    body
+
+}
+```
+```
+for(let i=1;i<=5;i++){
+    console.log("Hello World");
+}
+```
