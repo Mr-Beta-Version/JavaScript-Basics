@@ -283,4 +283,14 @@ intro("Walid",56);
 
 ```
 
+```
+const printHi = () => {
+    console.log("Hi");
+}
+
+printHi();
+
+```
+
+
 
