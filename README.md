@@ -274,5 +274,13 @@ const funtionName = (params1,params2) => {
 }
 ```
 
+```
+const intro = (name,age) => {
+    console.log(`${name} is ${age}`);
+}
+
+intro("Walid",56);
+
+```
 
 
