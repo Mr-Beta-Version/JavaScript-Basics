@@ -292,5 +292,18 @@ printHi();
 
 ```
 
+# For Each 
+```
+listName.forEach((item) => {
+    // process with item
+});
+```
+```
+let numbers = [2,3,4,5,6,7,8,9]
+numbers.forEach((num) => {
+    console.log(num*num);
+});
+```
+
 
 
