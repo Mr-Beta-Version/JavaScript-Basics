@@ -46,6 +46,13 @@ let last = "Walid";
 let name = first.concat(last);
 console.log(name); // MuhammadWalid
 ```
+replace
+```
+let name = "Muhammad Walid";
+let shortName = name.replace("Muhammad","MD");
+console.log(shortName); // MD Walid
+```
+
 # Comments
 ```
 // this is single line comment
