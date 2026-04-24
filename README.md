@@ -177,3 +177,11 @@ for(let key in data){
 }
 ```
 
+Arrays and Arrays Loop
+```
+let boy_name = ["Walid","Navid","Rafat","Siam"];
+for(let i=0;boy_name.length>i;i++){
+    console.log(boy_name[i]);
+}
+```
+
