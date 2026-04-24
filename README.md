@@ -15,6 +15,11 @@ const use for permanent value it cannot be modify or changes anything.
 typeof variablename;
 ```
 
+# length check
+```
+variablename.length;
+```
+
 # Comments
 ```
 // this is single line comment
