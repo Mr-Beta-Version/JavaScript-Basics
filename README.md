@@ -310,11 +310,22 @@ numbers.forEach((num) => {
 let numbers = [2,3,4,5,6,7,8,9]
 
 let squre = numbers.map((num) => {
-    return num*num
+    return num*num;
 });
 
 console.log(squre);
 
+```
+
+# Filter arrays
+```
+let numbers = [2,3,4,5,6,7,8,9]
+
+let evenNum = numbers.filter((num) => {
+    return num%2===0;
+});
+
+console.log(evenNum);
 ```
 
 
