@@ -113,3 +113,18 @@ for(let char of word){
     console.log(char);
 }
 ```
+
+for in loop
+```
+let data = {
+    name : "Walid",
+    age : 56,
+    phone : "+8801457866999"
+}
+
+for(let key in data){
+    console.log(key); // its return name, age, phone
+    console.log(data[key]); // its return the value
+}
+```
+
