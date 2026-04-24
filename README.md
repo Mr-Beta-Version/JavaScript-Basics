@@ -26,7 +26,13 @@ typeof variablename;
 ```
 variablename.length;
 ```
-
+# Strings methods
+```
+let name = "    Md WAlid       ";
+console.log(name.toUpperCase());
+console.log(name.toLowerCase());
+console.log(name.trim());
+```
 # Comments
 ```
 // this is single line comment
