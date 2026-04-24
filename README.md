@@ -251,5 +251,11 @@ funtion funtionName(){
    body here
 }
 ```
+```
+funtion funtionName(params1,params2){
+    body use with paramas
+}
+```
+
 
 
