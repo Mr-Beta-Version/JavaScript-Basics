@@ -106,3 +106,10 @@ do{
 }while(j<=10)
 ```
 
+for of loop
+```
+let word = "Walid";
+for(let char of word){
+    console.log(char);
+}
+```
