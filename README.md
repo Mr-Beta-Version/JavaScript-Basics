@@ -256,6 +256,15 @@ funtion funtionName(params1,params2){
     body use with paramas
 }
 ```
+simple funtion
+```
+
+function aboutMe(){
+    console.log("Hey , Muhammad Walid Here");
+}
+
+aboutMe();
+```
 
 
 
