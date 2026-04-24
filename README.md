@@ -254,6 +254,7 @@ funtion funtionName(){
 ```
 funtion funtionName(params1,params2){
     body use with paramas
+    return data
 }
 ```
 simple funtion
