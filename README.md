@@ -267,5 +267,12 @@ function aboutMe(){
 aboutMe();
 ```
 
+Arrow Funtions
+```
+const funtionName = (params1,params2) => {
+    // do some work
+}
+```
+
 
 
