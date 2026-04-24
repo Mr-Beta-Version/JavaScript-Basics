@@ -271,13 +271,13 @@ Arrow Funtions
 ```
 const funtionName = (params1,params2) => {
     // do some work
-}
+};
 ```
 
 ```
 const intro = (name,age) => {
     console.log(`${name} is ${age}`);
-}
+};
 
 intro("Walid",56);
 
@@ -286,7 +286,7 @@ intro("Walid",56);
 ```
 const printHi = () => {
     console.log("Hi");
-}
+};
 
 printHi();
 
