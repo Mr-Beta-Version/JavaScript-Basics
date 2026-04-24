@@ -33,6 +33,12 @@ console.log(name.toUpperCase());
 console.log(name.toLowerCase());
 console.log(name.trim());
 ```
+cuting
+```
+let phone = "+88013xxxxxxxx";
+let countryCode = phone.slice(0,4);
+console.log(countryCode); // +880
+```
 # Comments
 ```
 // this is single line comment
