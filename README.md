@@ -39,6 +39,13 @@ let phone = "+88013xxxxxxxx";
 let countryCode = phone.slice(0,4);
 console.log(countryCode); // +880
 ```
+join
+```
+let first = "Muhammad";
+let last = "Walid";
+let name = first.concat(last);
+console.log(name); // MuhammadWalid
+```
 # Comments
 ```
 // this is single line comment
