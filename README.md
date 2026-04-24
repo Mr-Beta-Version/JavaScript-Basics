@@ -45,7 +45,18 @@ let first = "Muhammad";
 let last = "Walid";
 let name = first.concat(last);
 console.log(name); // MuhammadWalid
+// ALT WAY
+console.log(first+last);
 ```
+Get Char
+```
+let name = "Walid";
+let charStart = name.charAt(0);
+console.log(charStart); // W
+// ALT WAY
+console.log(name[0]); // W
+```
+
 replace
 ```
 let name = "Muhammad Walid";
