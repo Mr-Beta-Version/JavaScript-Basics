@@ -9,6 +9,12 @@ let use for define a variable for later use, that long script code can catch err
 
 const use for permanent value it cannot be modify or changes anything.
 ```
+# Template Literals
+```
+let name = 'Walid';
+let stringMixData = `Hello ${name} . You know 1+1 = ${1+1}`;
+console.log(stringMixData);
+```
 
 # Type Check
 ```
