@@ -244,4 +244,12 @@ arry.splice(4,5); // it will delete 5 (4,5,6,7,8) value after 4 (1,2,3,4)
 console.log(arry);
 ```
 
+# Funtions
+
+```
+funtion funtionName(){
+   body here
+}
+```
+
 
