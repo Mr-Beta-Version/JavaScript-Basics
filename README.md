@@ -192,3 +192,18 @@ for(let name of boy_name){
     console.log(name);
 }
 ```
+
+Update Arrays
+```
+let boy_name = ["Walid","Navid","Rafat","Siam"];
+boy_name.push("Fahad","Momin","Shihan");
+console.log(boy_name);
+// Delete Last Item
+boy_name.pop();
+console.log(boy_name);
+// Convert to strings
+console.log(boy_name.toString());
+```
+
+
+
