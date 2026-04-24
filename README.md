@@ -184,4 +184,11 @@ for(let i=0;boy_name.length>i;i++){
     console.log(boy_name[i]);
 }
 ```
+```
 
+let boy_name = ["Walid","Navid","Rafat","Siam"];
+
+for(let name of boy_name){
+    console.log(name);
+}
+```
