@@ -205,5 +205,43 @@ console.log(boy_name);
 console.log(boy_name.toString());
 ```
 
+```
+let boy_name = ["Walid","Navid","Rafat","Siam"];
+boy_name.push("Fahad","Momin","Shihan");
+console.log(boy_name);
+// Delete First Item
+let f_del = boy_name.shift()
+console.log(`Deleted : ${f_del}`);
+// Delete Last Item
+let delLast = boy_name.pop();
+console.log(`Deleted : ${delLast}`);
+
+console.log(boy_name);
+// Convert to strings
+console.log(boy_name.toString());
+
+let girl_name = ["Mayesha"];
+
+// Join 2 arrays
+let mix_name = boy_name.concat(girl_name);
+console.log("Results after join 2 arrays :");
+console.log(mix_name);
+// Add at first
+mix_name.unshift("Walid");
+console.log("Results after added Walid : ");
+
+console.log(mix_name);
+
+// Get values
+
+let nam = mix_name.slice(0,4);
+console.log("Results after getting only 4 values :");
+console.log(nam);
+
+let arry = [1,2,3,4,4,5,6,7,8,5,6];
+// arry.splice(startCount,DeleteCount,addnew,addnew...)
+arry.splice(4,5); // it will delete 5 (4,5,6,7,8) value after 4 (1,2,3,4) 
+console.log(arry);
+```
 
 
