@@ -87,3 +87,22 @@ for(let i=1;i<=5;i++){
     console.log("Hello World");
 }
 ```
+
+While Loop
+```
+let i=1;
+while(i<=10){
+    console.log(i," While Loop");
+    i++;
+}
+```
+
+Do While Loop
+```
+let j=1;
+do{
+    console.log(j," Print First Check Condition Later")
+    j++;
+}while(j<=10)
+```
+
