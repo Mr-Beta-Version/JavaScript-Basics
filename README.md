@@ -329,4 +329,12 @@ console.log(evenNum);
 ```
 
 
+# DOM
+```
+let accessParagraph = document.querySelector("p");
 
+let getIdData = document.querySelector("#idname");
+
+let getClassData = document.querySelectorAll(".classname");
+
+```
