@@ -338,3 +338,9 @@ let getIdData = document.querySelector("#idname");
 let getClassData = document.querySelectorAll(".classname");
 
 ```
+
+```
+let getIdData = document.querySelector("#idname");
+console.log(getIdData.tagName);
+
+```
