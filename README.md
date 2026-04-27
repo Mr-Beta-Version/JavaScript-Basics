@@ -345,3 +345,9 @@ console.log(getIdData.tagName);
 console.log(getIdData.innerText); // show all text including children text
 console.log(getIdData.innerHTML); // show full html code with children html
 ```
+Set Text
+```
+let getIdData = document.querySelector("div");
+getIdData.innerText = "Inner Text Changed"
+getIdData.innerHTML = "<p>Inner HTML Changed<\p>"
+```
