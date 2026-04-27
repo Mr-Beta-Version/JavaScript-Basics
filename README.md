@@ -348,6 +348,6 @@ console.log(getIdData.innerHTML); // show full html code with children html
 Set Text
 ```
 let getIdData = document.querySelector("div");
-getIdData.innerText = "Inner Text Changed"
-getIdData.innerHTML = "<p>Inner HTML Changed<\p>"
+getIdData.innerText = "Inner Text Changed";
+getIdData.innerHTML = "<p>Inner HTML Changed<\p>";
 ```
