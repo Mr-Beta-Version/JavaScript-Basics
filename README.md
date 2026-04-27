@@ -344,6 +344,7 @@ let getIdData = document.querySelector("#idname");
 console.log(getIdData.tagName);
 console.log(getIdData.innerText); // show all text including children text
 console.log(getIdData.innerHTML); // show full html code with children html
+console.log(getIdData.textContent); // show all text including children text and hidden text
 ```
 Set Text
 ```
