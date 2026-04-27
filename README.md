@@ -342,5 +342,6 @@ let getClassData = document.querySelectorAll(".classname");
 ```
 let getIdData = document.querySelector("#idname");
 console.log(getIdData.tagName);
-
+console.log(getIdData.innerText); // show all text including children text
+console.log(getIdData.innerHTML); // show full html code with children html
 ```
