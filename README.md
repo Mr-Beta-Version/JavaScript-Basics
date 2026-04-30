@@ -384,4 +384,9 @@ divPage.after(newBtn); // after the div (outside)
 
 ```
 
+remove element 
+```
+let div = document.querySelector("div");
+div.remove();
+```
 
