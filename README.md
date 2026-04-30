@@ -360,3 +360,28 @@ para.getAttribute("class");
 para.getAttribute("id");
 para.setAttribute("class","new_class");
 ```
+
+Color Change
+```
+let div = document.querySelector("div");
+div.style.backgroundColor = "red";
+div.style.fontSize = "26px";
+div.style.visibility = "hidden";
+```
+
+Create new element and write it on page
+```
+let newBtn = document.createElement("button");
+newBtn.innerText = "click me";
+// access node
+let divPage = document.querySelector("div);
+divPage.append(newBtn); // append in last of div (inside)
+
+divPage.prepend(newBtn); // append in first of div (inside)
+
+divPage.before(newBtn); // before the div (outside)
+divPage.after(newBtn); // after the div (outside)
+
+```
+
+
