@@ -352,3 +352,11 @@ let getIdData = document.querySelector("div");
 getIdData.innerText = "Inner Text Changed";
 getIdData.innerHTML = "<p>Inner HTML Changed<\p>";
 ```
+
+Get And Set Attribute
+```
+let para = document.querySelector("p");
+para.getAttribute("class");
+para.getAttribute("id");
+para.setAttribute("class","new_class");
+```
