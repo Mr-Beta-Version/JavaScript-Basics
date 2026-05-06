@@ -390,3 +390,37 @@ let div = document.querySelector("div");
 div.remove();
 ```
 
+JavaScript Event
+```
+node.addEventListener("action", (args if available) => {
+code here ;
+}
+);
+
+```
+```
+let currMode = 'dark';
+let bodyPart = document.querySelector("body")
+const modeBtn = document.querySelector("#mode");
+bodyPart.style.backgroundColor = 'black';
+
+modeBtn.addEventListener("click", () => {
+    console.log("Button Clicked");
+    if (currMode==='dark'){
+        currMode = 'light';
+        modeBtn.textContent = 'light';
+        bodyPart.style.backgroundColor = 'white';
+    }else if(currMode==='light'){
+        currMode = 'dark';
+        modeBtn.textContent = 'dark';
+        bodyPart.style.backgroundColor = 'black';
+
+
+    }
+    console.log(`${currMode} mode activated`);
+
+}
+);
+```
+
+
